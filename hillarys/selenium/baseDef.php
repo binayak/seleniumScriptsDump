@@ -46,7 +46,7 @@ class MainTest extends PHPUnit_Extensions_SeleniumTestCase
     public function setUp() 
     {
         $this->setBrowser("*firefox");
-        $this->setBrowserUrl("http://uat.hillarys.sessiondigital.com/");
+        $this->setBrowserUrl("http://.com/");
         $this->setSpeed(5);
        
     }
