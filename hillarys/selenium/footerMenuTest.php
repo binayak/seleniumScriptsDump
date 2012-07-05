@@ -53,8 +53,8 @@ class FooterMenuTest extends MainTest
     $this->assertEquals("Site map",$this->getTitle());
     
     $this->goBackAndWait();
-    $this->assertTrue($this->isElementPresent("css=a[href='http://twitter.com/webblinds']"));
-    $this->assertTrue($this->isElementPresent("css=a[href='http://www.facebook.com/pages/web-blindscom/140881070481']"));
+    $this->assertTrue($this->isElementPresent("css=a[href='http://twitter.com/']"));
+    $this->assertTrue($this->isElementPresent("css=a[href='http://www.facebook.com/pages/140881070481']"));
     
     //Offers By Email Test
     $rand = rand(100,30000);
